@@ -1,0 +1,360 @@
+.sticky-nav {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	bottom: 700px;
+	z-index: 1;
+	width: 1500px;
+	align-content: center;
+	height: 30px;
+	padding: 20px;
+	background-color: #fb5b16;
+	color: #fb5b16;
+	text-decoration: overline;
+}
+  
+.nav-grid {
+	display: -ms-grid;
+	display: grid;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	grid-auto-flow: column;
+	grid-auto-columns: -webkit-max-content;
+	grid-auto-columns: max-content;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	-ms-grid-columns: 1fr -webkit-max-content -webkit-max-content -webkit-max-content;
+	-ms-grid-columns: 1fr max-content max-content max-content;
+	grid-template-columns: 1fr -webkit-max-content -webkit-max-content -webkit-max-content;
+	grid-template-columns: 1fr max-content max-content max-content;
+	-ms-grid-rows: auto;
+	grid-template-rows: auto;
+}
+  
+.nav-logo-link {
+	display: block;
+	height: 60px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+  
+.nav-logo {
+	width: auto;
+	height: 100%;
+	-o-object-fit: contain;
+	object-fit: contain;
+	-o-object-position: 0% 50%;
+	object-position: 0% 50%;
+}
+  
+.nav-link {
+	display: block;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding: 10px 0px;
+	color: #444;
+	text-decoration: none;
+}
+  
+.nav-link:hover {
+	text-decoration: underline;
+}
+  
+.text-block {
+	position: static;
+	width: 148px;
+	height: 42px;
+	border: 1px none #000;
+	background-color: rgba(73, 79, 80, 0);
+	-webkit-transition: opacity 200ms ease;
+	transition: opacity 200ms ease;
+	font-family: Roboto, sans-serif;
+	color: #fffbfb;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	text-align: left;
+	text-decoration: none;
+	text-transform: capitalize;
+	background-clip: padding-box;
+}
+  
+.body {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	overflow: hidden;
+	clear: left;
+	-webkit-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-align-content: flex-start;
+	-ms-flex-line-pack: start;
+	align-content: flex-start;
+	box-shadow: 1px 1px 3px 0 #000;
+	-webkit-transition: opacity 200ms ease;
+	transition: opacity 200ms ease;
+	font-family: Roboto, sans-serif;
+	color: #fff;
+	font-weight: 700;
+	text-decoration: overline;
+	background-clip: padding-box;
+	-o-object-fit: none;
+	object-fit: none;
+}
+  
+.body:focus {
+	margin-right: auto;
+	margin-left: auto;
+}
+  
+.bold-text {
+	font-weight: 400;
+}
+  
+.text-block-2 {
+	position: absolute;
+	left: 143px;
+	top: 175px;
+	right: auto;
+	bottom: auto;
+	z-index: 2;
+	color: #fb5b16;
+	font-size: 32px;
+	line-height: 37.5px;
+}
+  
+.text-span {
+	color: #000;
+}
+  
+.text-block-3 {
+	position: absolute;
+	left: 144px;
+	top: 243px;
+	width: 405px;
+	height: 46px;
+	font-family: Roboto, sans-serif;
+	color: #434040;
+	font-size: 20px;
+	line-height: 23px;
+}
+  
+.text-block-4 {
+	position: absolute;
+	align-items:center;
+	left: 520;
+	top: auto;
+	right: auto;
+	bottom: 160px;
+	z-index: auto;
+	overflow: visible;
+	width: 600px;
+	height: 23px;
+	font-family: Roboto, sans-serif;
+	color: #fb5b16;
+	font-size: 20px;
+	line-height: 23px;
+}
+  
+.image {
+	opacity: 1;
+	color: transparent;
+	-o-object-fit: scale-down;
+	object-fit: scale-down;
+}
+  
+.image-2 {
+	position: absolute;
+	left: auto;
+	top: 70px;
+	right: 10px;
+	bottom: auto;
+	overflow: auto;
+	width: 670px;
+	height: 400px;
+	max-width: 671px;
+	border-radius: 0px;
+	opacity: 1;
+	-webkit-transition: opacity 200ms ease;
+	transition: opacity 200ms ease;
+	color: transparent;
+	-o-object-fit: fill;
+	object-fit: fill;
+}
+  
+.button {
+	position:absolute;
+	left: 239px;
+	top: 352px;
+	right: auto;
+	bottom: auto;
+	width: 100px;
+	height: 40px;
+	-webkit-box-flex: 0;
+	-webkit-flex: 0 auto;
+	-ms-flex: 0 auto;
+	flex: 0 auto;
+	border-radius: 14px;
+	background-color: #fb5b16;
+	font-family: Roboto, sans-serif;
+	color: whitesmoke;
+	line-height: 40px;
+	font-style: normal;
+	text-underline-position: unset;
+	text-align: center;
+}
+  
+.image-3 {
+	position: absolute;
+	left: 150px;
+	top: 550px;
+	right: 0%;
+	bottom: 140px;
+	width: 64px;
+	height: 63px;
+	float: left;
+	clear: both;
+}
+  
+.image-4 {
+	position: absolute;
+	left: 400px;
+	top: 550px;
+}
+  
+.image-5 {
+	position: absolute;
+	left: 630px;
+	top: 550px;
+}
+  
+.image-6 {
+	position: absolute;
+	right: 630px;
+	top: 550px;
+}
+  
+.image-7 {
+	position: absolute;
+	right: 400px;
+	top: 550px;
+}
+  
+.image-8 {
+	position: absolute;
+	right: 150px;
+	top: 550px;
+}
+.img-1 {
+	position: absolute;
+	left:150px;
+	top: 630px;
+	width: 63px;
+	height: 23px;
+	line-height: 23px;
+  }
+  .img-2 {
+	position: absolute;
+	left:350px;
+	top: 630px;
+	width: 163px;
+	height: 23px;
+	line-height: 23px;
+  }
+  .img-3 {
+	position: absolute;
+	left:560px;
+	top: 630px;
+	width: 185px;
+	height: 23px;
+	line-height: 23px;
+  }
+  .img-4 {
+	position: absolute;
+	left:800px;
+	top: 630px;
+	width: 161px;
+	height: 23px;
+	line-height: 23px;
+  }
+  .img-5 {
+	position: absolute;
+	left:1040px;
+	top: 630px;
+	width: 129px;
+	height: 23px;
+	line-height: 23px;
+  }
+  .img-6 {
+	position: absolute;
+	left:1280px;
+	top: 630px;
+	width: 159px;
+	height: 23px;
+	line-height: 23px;
+  }
+  text-1{
+	position: absolute;
+	left: 1400px;
+	top: 680;
+	width: 405px;
+	height: 46px;
+	font-family: Roboto, sans-serif;
+	color: #434040;
+	font-size: 20px;
+	line-height: 23px;
+
+  }
+  
+@media screen and (max-width: 767px) {
+	.sticky-nav {
+	  position: relative;
+}
+  
+.nav-grid {
+	  text-align: center;
+	}
+}
+  
+@media screen and (max-width: 479px) {
+	.sticky-nav {
+	  padding: 0px;
+}
+  
+.nav-grid {
+	  grid-auto-flow: row;
+	  grid-column-gap: 0px;
+	  grid-row-gap: 0px;
+	  -ms-grid-columns: 1fr;
+	  grid-template-columns: 1fr;
+	  -ms-grid-rows: 100px;
+	  grid-template-rows: 100px;
+}
+  
+.nav-logo-link {
+	  border-top: 1px solid #c4c4c4;
+}
+  
+.nav-link {
+	  padding-top: 10px;
+	  padding-bottom: 10px;
+	  border-top: 1px solid #c4c4c4;
+}
+a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
